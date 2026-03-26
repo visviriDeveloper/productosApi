@@ -48,4 +48,17 @@ public class ProductoController {
         }
 
     }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<?> eliminarProducto(@PathVariable Integer id) {
+        try{
+            if (!productoService.existePorId(id)) {
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("El producto no existe");
+            }
+            productoService.eliminarProducto(id);
+            return ResponseEntity.ok("producto eliminado correctamente");
+        }catch (Exception e){
+            return  ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error al eliminar producto");
+        }
+    }
 }
