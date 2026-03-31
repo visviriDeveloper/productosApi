@@ -17,8 +17,8 @@ Este microservicio esta desarrollado siguiendo el modelo de capas MVC utilizando
 
 Para validar la lógica v1, asegúrese de probar los siguientes escenarios:
 
-1. **Creación Duplicada**: Intentar un `POST` con una patente que ya existe. Debe retornar `400 Bad Request`.
-2. **Arriendo Doble**: Intentar un `PUT` en un auto ya arrendado. Debe retornar `400 Bad Request`.
+1. **Creación Duplicada**: Intentar un `POST`. Debe retornar `400 Bad Request`.
+2. **Arriendo Doble**: Intentar un `PUT`. Debe retornar `400 Bad Request`.
 3. **ID Inexistente**: Intentar un `DELETE` o `PUT` con un ID que no esté en la lista. Debe retornar `404 Not Found`.
 
 ---
