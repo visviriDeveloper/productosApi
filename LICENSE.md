@@ -1,5 +1,9 @@
 # Licencia del Proyecto
+
 ![image](https://openjdk.org/images/duke-plug.png)
+
 ## Open-source JDK
+
 Copyright 2026 Álvaro Morales - FullStack Programmer
+
 Oracle’s free, GPL-licensed, production-ready OpenJDK JDK 26 binaries for Linux, macOS, and Windows are available at jdk.java.net/26; Oracle’s commercially-licensed JDK 26 binaries, based on the same code, are here.
