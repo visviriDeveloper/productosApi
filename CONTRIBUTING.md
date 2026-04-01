@@ -8,10 +8,10 @@
 
 1. No subir cambios directamente a `main`.
 2. Crear una rama de trabajo: Usa nombres descriptivos con los siguientes prefijos:
-   - `feature/` para nuevas funcionalidades.
-   - `fix/` para corregir errores.
-   - `docs/` para documentación.
-   - `refactor/` para mejoras de código.
+- `feature/` para nuevas funcionalidades.
+- `fix/` para corregir errores.
+- `docs/` para documentación.
+- `refactor/` para mejoras de código.
 
 ---
 
@@ -27,6 +27,7 @@ Para asegurar la calidad del microservicio, respete la arquitectura de **3 capas
 
 - **Lombok**: Use `@Data`, `@AllArgsConstructor` y `@NoArgsConstructor`.
 - **Validaciones**: Use `@NotBlank` y `@Min`.
+
 ---
 
 ## 📝 Formato de Commits
