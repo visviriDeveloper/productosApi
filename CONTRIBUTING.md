@@ -7,7 +7,9 @@
 ## 🌿 Flujo de Trabajo (Git Flow)
 
 1. No subir cambios directamente a `main`.
+
 2. Crear una rama de trabajo: Usa nombres descriptivos con los siguientes prefijos:
+
 - `feature/` para nuevas funcionalidades.
 - `fix/` para corregir errores.
 - `docs/` para documentación.
